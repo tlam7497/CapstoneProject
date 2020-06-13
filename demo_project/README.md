@@ -16,17 +16,10 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
 - ```am_metadata_sample.csv```: contains a subset of the Amazon metadata dataset (5k rows)
     - rows = books uniquely identified by ASIN
    - columns = metadata attributes such as number of ratings, number of reviews, genres, etc.
-- ```am_gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model using both Goodreads and Amazon features (5k rows)
+- ```am_gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model (5k rows)
    - rows = books uniquely identified by ASIN
    - columns = proportions topics (each book's proportion of reviews under a certain topic)
 - ```reviews.tsv```: contains a subset of text reviews
-- ```am_LDA_sample.csv```: contains ASIN feature for each book along with 15 proportion topics features which were extracted from LDA model using just Amazon features (5k rows)
-   - rows = books uniquely identified by ASIN
-   - columns = proportions topics (each book's proportion of reviews under a certain topic)
-- ```gr_LDA_sample.csv```: contains ASIN feature for each book along with 15 proportion topics features which were extracted from LDA model using just Goodreads features (5k rows)
-   - rows = books uniquely identified by ASIN
-   - columns = proportions topics (each book's proportion of reviews under a certain topic)  
-
 ----
 
 ## Code
@@ -58,7 +51,7 @@ NOTE : It take times to run this file, so only 30 text reivews were used.
       Step 1 : Download reviews.tsv  
       Step 2 : Run cleaning_text.ipynb which produces reviews_cleaned.tsv  
       Step 3 : Download File: http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip and unzip  
-      Step 3 : run lda_wmallet_tune.py ( remmeber to update the path in the below code at cell 9: 
+      Step 4 : run lda_wmallet_tune.py ( remmeber to update the path in the below code at cell 9: 
                      mallet_path = 'mallet-2.0.8/bin/mallet'  
   ```
 
