@@ -43,7 +43,7 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
 ## Instruction to run code
 ### DEMO NOTEBOOK:  models_with_lda.ipynb 
       Step 1: Download 3 csv files : gr_metadata_sample.csv, am_metadata_sample.csv, am_gr_LDA_sample.csv
-      Step 2: Run models_with_lda.ipynb  ( It may take 59 secs to comlete running this file)
+      Step 2: Run models_with_lda.ipynb  ( It may take 59 secs to complete running this file)
 
 ### If you want to run the LDA model : lda_wmallet_tune.py  
 NOTE : It take times to run this file, so only 30 text reivews were used.  
