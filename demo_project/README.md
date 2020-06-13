@@ -37,3 +37,12 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
    - ```models_with_lda.ipynb```: contains the best Random Forests, Extreme Gradient Boosting (Xgboost), Neural Networks, and ensemble models we tested
    - ```am_predict_gr.ipynb```: contains the best RF + XGB + NN ensemble we got using Amazon features to predict rating differences
    - ```gr_predict_am.ipynb```: contains the best RF + XGB + NN ensemble we got using Goodread features to predict rating differences
+   
+ ----
+
+## Instruction to run code
+### DEMO NOTEBOOK:  models_with_lda.ipynb 
+      Step 1: Download 3 csv files : gr_metadata_sample.csv, am_metadata_sample.csv, am_gr_LDA_sample.csv
+      Step 2: Run models_with_lda.ipynb  ( It may take 59 secs to comlete running this file)
+
+   
