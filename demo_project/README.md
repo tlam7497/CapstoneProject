@@ -29,7 +29,7 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
    - ```official_amazon.ipynb```: contains the code for reading Amazon reviews and metadata from  Julian McAuley's dataset (http://jmcauley.ucsd.edu/data/amazon/)
    - ```official_goodreads.ipynb```: contains the code for crawling for reviews and metadata from Goodreads API
 - Data cleaning/processing:
-   - ```text_cleaning.ipynb```: contains the code for cleaning reviews ( This file is modified from am_text_cleaning.py in complete project folder. It only demo cleaning 30 text reviews)
+   - ```text_cleaning.ipynb```: contains the code for cleaning reviews ( This file is modified from am_text_cleaning.py in complete project folder. It only has a demo of 30 cleaned text reviews)
    - ```lda_wmallet_tune.py```: contains the LDA model features extraction
 - Exploratory data analysis (EDA)
    - ```eda.ipynb```: contains the plots of the distribution of average ratings of Goodreads and Amazon and relationships between various attributes and rating differences
