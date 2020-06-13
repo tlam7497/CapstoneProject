@@ -20,12 +20,6 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
    - rows = books uniquely identified by ASIN
    - columns = proportions topics (each book's proportion of reviews under a certain topic)
 - ```reviews.tsv```: contains a subset of text reviews
-- ```gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model using just Goodreads features (5k rows)
-   - rows = books uniquely identified by ASIN
-   - columns = proportions topics (each book's proportion of reviews under a certain topic)
-- ```gr_LDA_description_sample.csv```: contains ASIN feature for each book along with 15 proportion topics features which were extracted from LDA model fro Goodreads books descriptions (5k rows)
-   - rows = books uniquely identified by ASIN
-   - columns = proportions topics (each book's proportion of description under a certain topic)
 - ```am_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model using just Amazon features (5k rows)
    - rows = books uniquely identified by ASIN
    - columns = proportions topics (each book's proportion of reviews under a certain topic)
@@ -45,7 +39,6 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
 - Prediction modeling:
    - ```models_with_lda.ipynb```: contains the best Random Forests, Extreme Gradient Boosting (Xgboost), Neural Networks, and ensemble models we tested
    - ```am_predict_gr.ipynb```: contains the best RF + XGB + NN ensemble we got using Amazon features to predict rating differences
-   - ```gr_predict_am.ipynb```: contains the best RF + XGB + NN ensemble we got using Goodread features to predict rating differences
    
  ----
 
