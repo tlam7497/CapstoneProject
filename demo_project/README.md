@@ -47,10 +47,12 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
 
 ### If you want to run the LDA model : lda_wmallet_tune.py  
 NOTE : It take times to run this file, so only 30 text reivews were used.  
+```
       Step 1 : Download reviews.tsv  
       Step 2 : Run cleaning_text.ipynb which produces reviews_cleaned.tsv  
       Step 3 : Download File: http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip and unzip  
       Step 3 : run lda_wmallet_tune.py ( remmeber to update the path in the below code at cell 9: 
                      mallet_path = 'mallet-2.0.8/bin/mallet'  
+  ```
 
    
