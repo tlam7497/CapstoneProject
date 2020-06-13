@@ -40,7 +40,7 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
    
  ----
 
-## Instruction to run code
+## Instruction to run Notebooks
 ### DEMO NOTEBOOK:  models_with_lda.ipynb 
       Step 1: Download 3 csv files : gr_metadata_sample.csv, am_metadata_sample.csv, am_gr_LDA_sample.csv
       Step 2: Run models_with_lda.ipynb  ( It may take 59 secs to complete running this file)
