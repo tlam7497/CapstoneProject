@@ -9,7 +9,7 @@ This folder is the subset of the complete_project file. It contains small sample
 
 ## Datasets
 
-There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Amazon metadata, Amazon reviews. We did not choose to upload the reviews datasets but instead chose to upload the LDA dataset extracted from the reviews datasets since we did not use the reviews datasets for anything else. Since the files are too large and take too long to run, we have created a sample dataset of them and uploaded under the following names:
+There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Amazon metadata, Amazon reviews. We also uploaded the LDA dataset extracted from the reviews datasets. Since the files are too large and take too long to run, we have created a sample dataset of them and uploaded under the following names:
 - ```gr_metadata_sample.csv```: contains a subset of the Goodreads metadata dataset (5k rows)
    - rows = books uniquely identified by ASIN
    - columns = metadata attributes such as number of ratings, number of reviews, genres, etc.
@@ -29,7 +29,7 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
    - ```official_amazon.ipynb```: contains the code for reading Amazon reviews and metadata from  Julian McAuley's dataset (http://jmcauley.ucsd.edu/data/amazon/)
    - ```official_goodreads.ipynb```: contains the code for crawling for reviews and metadata from Goodreads API
 - Data cleaning/processing:
-   - ```text_cleaning.ipynb```: contains the code for cleaning reviews ( This file is modified from am_text_cleaning.py in complete project folder. It only has a demo of 30 cleaned text reviews)
+   - ```cleaning_text.ipynb```: contains the code for cleaning reviews ( This file is modified from am_text_cleaning.py in complete project folder. It only has a demo of 30 cleaned text reviews)
    - ```lda_wmallet_tune.py```: contains the LDA model features extraction
 - Exploratory data analysis (EDA)
    - ```eda.ipynb```: contains the plots of the distribution of average ratings of Goodreads and Amazon and relationships between various attributes and rating differences
