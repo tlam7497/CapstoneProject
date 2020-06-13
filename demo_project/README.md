@@ -19,7 +19,7 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
 - ```am_gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model (5k rows)
    - rows = books uniquely identified by ASIN
    - columns = proportions topics (each book's proportion of reviews under a certain topic)
-   
+- ```reviews.csv```: contains a subset of text reviews
 ----
 
 ## Code
