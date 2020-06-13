@@ -11,8 +11,14 @@ This folder is the subset of the complete_project file. It contains small sample
 
 There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Amazon metadata, Amazon reviews. We did not choose to upload the reviews datasets but instead chose to upload the LDA dataset extracted from the reviews datasets since we did not use the reviews datasets for anything else. Since the files are too large and take too long to run, we have created a sample dataset of them and uploaded under the following names:
 - ```gr_metadata_sample.csv```: contains a subset of the Goodreads metadata dataset (5k rows)
+   - rows = books uniquely identified by ASIN
+   - columns = metadata attributes such as number of ratings, number of reviews, genres, etc.
 - ```am_metadata_sample.csv```: contains a subset of the Amazon metadata dataset (5k rows)
-- ```am_gr_LDA_sample.csv```: contains ASIN feature along with 35 proportion topics features which were extracted from LDA model (5k rows)
+    - rows = books uniquely identified by ASIN
+   - columns = metadata attributes such as number of ratings, number of reviews, genres, etc.
+- ```am_gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model (5k rows)
+   - rows = books uniquely identified by ASIN
+   - columns = proportions topics features
    
 ----
 
