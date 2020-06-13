@@ -3,7 +3,7 @@
 
 Our project is on Predicting the Difference between Goodreads Ratings and Amazon Ratings
 
-This folder is the subset of the complete_project file. It contains small sample datasets and only Jupyter Notebooks.
+This folder is the subset of the complete_project file. It contains small sample datasets and only Jupyter Notebooks. To see the full code, look for the same filenames in the complete_project file.
 
 ---
 
