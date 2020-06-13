@@ -51,7 +51,7 @@ NOTE : It take times to run this file, so only 30 text reviews were used.
       Step 1 : Download reviews.tsv  
       Step 2 : Run cleaning_text.ipynb which produces reviews_cleaned.tsv  
       Step 3 : Download File: http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip and unzip  
-      Step 4 : run lda_wmallet_tune.py ( remmeber to update the path in the below code at cell 9: 
+      Step 4 : run lda_wmallet_tune.py . Rremmeber to update the path in the below code at cell 9: 
                      mallet_path = 'mallet-2.0.8/bin/mallet'  
   ```
 
