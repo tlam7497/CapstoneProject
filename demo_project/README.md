@@ -23,6 +23,9 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
 - ```gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model using just Goodreads features (5k rows)
    - rows = books uniquely identified by ASIN
    - columns = proportions topics (each book's proportion of reviews under a certain topic)
+- ```gr_LDA_description_sample.csv```: contains ASIN feature for each book along with 15 proportion topics features which were extracted from LDA model fro Goodreads books descriptions (5k rows)
+   - rows = books uniquely identified by ASIN
+   - columns = proportions topics (each book's proportion of description under a certain topic)
 - ```am_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model using just Amazon features (5k rows)
    - rows = books uniquely identified by ASIN
    - columns = proportions topics (each book's proportion of reviews under a certain topic)
@@ -48,17 +51,19 @@ Like the datasets, the code files are also shortened to only demonstrate code sn
 
 ## Instruction to run Notebooks
 ### DEMO NOTEBOOK:  models_with_lda.ipynb 
-      Step 1: Download 3 csv files : gr_metadata_sample.csv, am_metadata_sample.csv, am_gr_LDA_sample.csv
-      Step 2: Run models_with_lda.ipynb  (It may take 59 secs to complete running this file)
+```
+Step 1: Download 3 csv files : gr_metadata_sample.csv, am_metadata_sample.csv, am_gr_LDA_sample.csv
+Step 2: Run models_with_lda.ipynb  (It may take 59 secs to complete running this file)
+```
 
 ### If you want to run the LDA model : lda_wmallet_tune.py  
 NOTE : It take times to run this file, so only 30 text reviews were used.  
 ```
-      Step 1 : Download reviews.tsv  
-      Step 2 : Run cleaning_text.ipynb which produces reviews_cleaned.tsv  
-      Step 3 : Download File: http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip and unzip  
-      Step 4 : run lda_wmallet_tune.py . Rremmeber to update the path in the below code at cell 9: 
-                     mallet_path = 'mallet-2.0.8/bin/mallet'  
+Step 1 : Download reviews.tsv  
+Step 2 : Run cleaning_text.ipynb which produces reviews_cleaned.tsv  
+Step 3 : Download File: http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip and unzip  
+Step 4 : run lda_wmallet_tune.py . Rremmeber to update the path in the below code at cell 9: 
+         mallet_path = 'mallet-2.0.8/bin/mallet'  
   ```
 
    
