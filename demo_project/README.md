@@ -26,17 +26,19 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
 
 Like the datasets, the code files are also shortened to only demonstrate code snippets with important findings in order to reduce grading runtime. To see the full code, look for the same filenames in the complete_project file. The folder contains the following code snippets:
 - Data collection:
-   - ```official_amazon.ipynb```:
-   - ```official_goodreads.ipynb```:
+   - ```official_amazon.ipynb```: contains the code for reading Amazon reviews and metadata from  Julian McAuley's dataset (http://jmcauley.ucsd.edu/data/amazon/)
+   - ```official_goodreads.ipynb```: contains the code for crawling for reviews and metadata from Goodreads API
 - Data cleaning/processing:
-   - ```amazon_text_cleaning.ipynb```:
-   - ```goodreads_text_cleaning.ipynb```:
-   - ```lda_wmallet_tune.py```:
+   - ```amazon_text_cleaning.ipynb```: contains the code for cleaning Amazon reviews
+   - ```goodreads_text_cleaning.ipynb```: contains the code for cleaning Goodreads reviews
+   - ```lda_wmallet_tune.py```: contains the LDA model features extraction
 - Exploratory data analysis (EDA)
-   - ```eda.ipynb```: contains the code for plots of the distribution of average ratings of Goodreads and Amazon and relationships between various attributes and rating differences
+   - ```eda.ipynb```: contains the plots of the distribution of average ratings of Goodreads and Amazon and relationships between various attributes and rating differences
 - Prediction modeling:
-   - ```linear_regressionl.ipynb```:
-   - ```random_forest.ipynb```:
-   - ```xgboost.ipynb```:
-   - ```neural_network.ipynb```:
+   - ```linear_regressionl.ipynb```: contains the Multiple Linear Regression model
+   - ```random_forest.ipynb```: contains the Random Forests model
+   - ```xgboost.ipynb```: contains the Extreme Gradient Boosting (Xgboost) model
+   - ```neural_network.ipynb```: contains the Neural Network model
    - ```models_with_lda.ipynb```: contains the best Random Forests, Extreme Gradient Boosting (Xgboost), Neural Networks, and ensemble models we tested
+   - ```am_predict_gr.ipynb```: contains the best RF + XGB + NN ensemble we got using Amazon features to predict rating differences
+   - ```gr_predict_am.ipynb```: contains the best RF + XGB + NN ensemble we got using Goodread features to predict rating differences
