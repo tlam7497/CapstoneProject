@@ -24,7 +24,9 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
 
 ## Code
 
-Like the datasets, the code files are also shortened to only demonstrate important findings in order to reduce grading runtime. The folder contains the following code snippets.
+Like the datasets, the code files are also shortened to only demonstrate code snippets with important findings in order to reduce grading runtime. To see the full code, look for the same filenames in the complete_project file.
+Em ghi thêm kiểu như cái demo folder chỉ là lấy sample thôi nên eda hay mấy cái models hay clean sẽ ko thể hiện hết, muốn xem hết thì qua complete folder xem ( name và description của từng code file sẽ như nhau)
+The folder contains the following code snippets.
 - Data collection:
    - ```official_amazon.ipynb```:
    - ```official_goodreads.ipynb```:
