@@ -18,12 +18,25 @@ There are 4 datasets for our project: Goodreads metadata, Goodreads reviews, Ama
    - columns = metadata attributes such as number of ratings, number of reviews, genres, etc.
 - ```am_gr_LDA_sample.csv```: contains ASIN feature for each book along with 35 proportion topics features which were extracted from LDA model (5k rows)
    - rows = books uniquely identified by ASIN
-   - columns = proportions topics features
+   - columns = proportions topics (each book's proportion of reviews under a certain topic)
    
 ----
 
 ## Code
 
-Like the datasets, the code files are also shortened to only demonstrate important findings in order to reduce grading runtime. The code files in the folder are:
-- ```eda.ipynb```: contains the code for plots of the distribution of average ratings of Goodreads and Amazon and relationships between various attributes and rating differences
-- ```models_with_lda.ipynb```: contains the best Random Forests, Extreme Gradient Boosting (Xgboost), Neural Networks, and ensemble models we tested
+Like the datasets, the code files are also shortened to only demonstrate important findings in order to reduce grading runtime. The folder contains the following code snippets.
+- Data collection:
+   - ```official_amazon.ipynb```:
+   - ```official_goodreads.ipynb```:
+- Data cleaning/processing:
+   - ```amazon_text_cleaning.ipynb```:
+   - ```goodreads_text_cleaning.ipynb```:
+   - ```lda_wmallet_tune.py```:
+- Exploratory data analysis (EDA)
+   - ```eda.ipynb```: contains the code for plots of the distribution of average ratings of Goodreads and Amazon and relationships between various attributes and rating differences
+- Prediction modeling:
+   - ```linear_regressionl.ipynb```:
+   - ```random_forest.ipynb```:
+   - ```xgboost.ipynb```:
+   - ```neural_network.ipynb```:
+   - ```models_with_lda.ipynb```: contains the best Random Forests, Extreme Gradient Boosting (Xgboost), Neural Networks, and ensemble models we tested
